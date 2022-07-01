@@ -4,8 +4,12 @@
   "description": "simple authentication api",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index"
   },
   "author": "Carlos Eduardo",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "*",
+    "nodemon": "*"
+  }
 }
